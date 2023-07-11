@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f6f9;
+}
+
+.signin-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border-radius: 300px; */
+}
+
+.signin-container p {
+  margin-right: 5px;
+  color: #555;
+}
+
+.signin-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 75px;
+  margin-top: 0px;
+  color: #212a3e;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "Poppins",  sans-serif;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+}
+
+.label-container label {
+  font-weight: bold;
+  width: 100px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+select,
+input[type="otp"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 2px 1px rgb(82, 80, 80);
+}
+
+.toggle-password-button,
+.verify-otp-button,
+.get-otp-button,
+.signup-button {
+  padding: 10px;
+  background-color: #394867;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.toggle-password-button:hover,
+.verify-otp-button:hover,
+.get-otp-button:hover,
+.signup-button:hover {
+  background-color: #bab7e9;
+  color: black;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.top-img {
+  height: 200px;
+}
