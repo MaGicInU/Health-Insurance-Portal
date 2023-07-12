@@ -1,0 +1,22 @@
+.abc {
+  height: 100%;
+}
+.intro,
+.about {
+  background-color: white;
+  box-shadow: 30px 30px 30px;
+  height: 75vh;
+  display: flex;
+}
+.intro-item {
+  flex: 50%;
+}
+.content {
+  float: center;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 5%;
+}
+.about-img {
+  float: right;
+}
